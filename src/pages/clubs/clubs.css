@@ -1,0 +1,43 @@
+.clubsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.clubSquare {
+    cursor: pointer;
+    background-color: #FFF;
+    aspect-ratio: 1;
+    border: 3px solid black;
+    width: 15vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-size: 250%;
+    gap: 1vw;
+}
+
+.clubCrest {
+    aspect-ratio: 1;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.clubInfosContainer p {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-bottom: -10px;
+}

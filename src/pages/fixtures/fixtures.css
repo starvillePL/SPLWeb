@@ -1,0 +1,27 @@
+.fixture {
+    background-color: #8704EE;
+    border-radius: 30px;
+    width: 60vw;
+    margin-left: 20vw;
+    color: white;
+    height: 12vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 60px;
+}
+
+.tfeams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    gap: 1vw;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: -3vh;
+}

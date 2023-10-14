@@ -1,0 +1,72 @@
+.topBar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    background-color: #8704EE;
+    height: 10vh;
+    justify-content: center;
+    gap: 3vw;
+    color: white;
+}
+
+.arrow {
+    margin: 10px;
+}
+
+.topBar div {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+}
+
+.SPLlogo {
+    height: 7vh;
+    border-radius: 100px;
+    position: absolute;
+    top: calc(5vh - 7vh / 2);
+    left: 10px;
+    padding: 0 !important;
+}
+
+.menu {
+    position: absolute;
+    top: calc(10vh);
+    gap: 1vw;
+    padding: 1% !important;
+    background-color: #ae45ff;
+    display: none !important;
+    height: 50% !important;
+    transform: translateX(-5%);
+}
+
+.menu p {
+    color: white;
+}
+
+.menu p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.PL:hover .PLmenu {
+    display: flex !important;
+}
+
+.fantasy:hover .fantasyMenu {
+    display: flex !important;
+}
+
+.community:hover .communityMenu {
+    display: flex !important;
+}
+
+.about:hover .aboutMenu {
+    display: flex !important;
+}
+
+.more:hover .moreMenu {
+    display: flex !important;
+}
