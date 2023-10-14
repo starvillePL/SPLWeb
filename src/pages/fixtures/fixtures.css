@@ -1,27 +1,64 @@
+.wholeFixture {
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.mathcday {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid rgb(225, 225, 225) 1px;
+    text-decoration: underline;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
 .fixture {
-    background-color: #8704EE;
-    border-radius: 30px;
-    width: 60vw;
-    margin-left: 20vw;
-    color: white;
-    height: 12vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: 60px;
+    color: black;
+    font-size: 25px;
+    padding: 1%;
+    display: flex;
+    gap: 5vw;
+    align-items: center;
 }
 
 .tfeams {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75%;
     gap: 1vw;
+    margin-left: 15vw;
+}
+
+.timeContainer {
+    display: flex;
+    gap: .75vw;
+    position: absolute;
+    margin-left: 47.5vw;
 }
 
 .time {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    margin-top: -3vh;
+    font-size: 20px;
+}
+
+.tfimage {
+    width: 4vw;
+    border-radius: 100%;
+}
+
+.moreDetailsButton {
+    position: absolute;
+    margin-left: 75vw;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.moreDetailsButton:hover {
+    background: rgb(225, 225, 225);
 }

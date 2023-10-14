@@ -9,16 +9,17 @@ import CMT from '../../starville/comets.png'
 import CNT from '../../starville/central.png'
 import OLS from '../../starville/OL.png'
 import ARS from '../../starville/arlington.png'
+export let fortuna = [1, 'FTN', 2, 2, 0, 0, 67, 10, FTN]
+export let atletico = [2, 'ATL', 2, 2, 0, 0, 61, 12, ATL]
+export let AC = [3, 'ACS', 2, 1, 0, 1, 18, 30, ACS]
+export let east = [4, 'EFC', 2, 1, 0, 1, 11, 17, EFC]
+export let comets = [5, 'CMT', 2, 1, 0, 1, 18, 33, CMT]
+export let central = [6, 'CNT', 2, 1, 0, 1, 16, 50, CNT]
+export let OL = [7, 'OLS', 2, 0, 0, 2, 12, 22, OLS]
+export let arlington = [8, 'ARS', 2, 0, 0, 2, 8, 47, ARS]
 
 export default function Table() {
-    let fortuna = [1, 'FTN', 2, 2, 0, 0, 67, 10, FTN]
-    let atletico = [2, 'ATL', 2, 2, 0, 0, 61, 12, ATL]
-    let AC = [3, 'ACS', 2, 1, 0, 1, 18, 30, ACS]
-    let east = [4, 'EFC', 2, 1, 0, 1, 11, 17, EFC]
-    let comets = [5, 'CMT', 2, 1, 0, 1, 18, 33, CMT]
-    let central = [6, 'CNT', 2, 1, 0, 1, 16, 50, CNT]
-    let OL = [7, 'OLS', 2, 0, 0, 2, 12, 22, OLS]
-    let arlington = [8, 'ARS', 2, 0, 0, 2, 8, 47, ARS]
+
     let teams = [fortuna, AC, east, comets, OL, central, arlington, atletico]
     const sortedTeams = []
 
