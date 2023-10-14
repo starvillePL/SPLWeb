@@ -2,14 +2,14 @@ import Navbar from "../../components/navbar/navbar";
 import './clubs.css'
 import { Link } from 'react-router-dom'
 
-import FTN from '../../starville/fortuna.png'
-import ATL from '../../starville/atletico.jpg'
-import ACS from '../../starville/AC.png'
-import EFC from '../../starville/east.png'
-import CMT from '../../starville/comets.png'
-import CNT from '../../starville/central.png'
-import OLS from '../../starville/OL.png'
-import ARS from '../../starville/arlington.png'
+// import FTN from '../../starville/fortuna.png'
+// import ATL from '../../starville/atletico.jpg'
+// import ACS from '../../starville/AC.png'
+// import EFC from '../../starville/east.png'
+// import CMT from '../../starville/comets.png'
+// import CNT from '../../starville/central.png'
+// import OLS from '../../starville/OL.png'
+// import ARS from '../../starville/arlington.png'
 
 export default function Clubs() {
     let clubs = ['FTN', 'ATL', 'ACS', 'EFC', 'CMT', 'CNT', 'OLS', 'ARS']
