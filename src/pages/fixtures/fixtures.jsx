@@ -3,11 +3,9 @@ import './fixtures.css'
 import * as teams from '../../pages/table/table'
 
 export default function Fixtures() {
-    let gameOne = [teams.AC, teams.comets, 'saturday, 3pm']
-    let gameTwo = [teams.OL, teams.arlington, 'saturday, 4pm']
     let gameThree = [teams.central, teams.atletico, 'saturday, 5pm']
     let gameFour = [teams.fortuna, teams.east, 'sunday, 3pm']
-    let games = [gameOne, gameTwo, gameThree, gameFour]
+    let games = [gameThree, gameFour]
     return (
         <div>
             <Navbar />
