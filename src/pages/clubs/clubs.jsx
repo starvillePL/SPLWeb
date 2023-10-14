@@ -21,7 +21,8 @@ export default function Clubs() {
             <div className="clubsContainer">
                 {clubs.map(function(object, i) {
                     return (
-                        <Club key={i} name={clubs[i]} crest={eval(clubs[i])} clubIG={clubsInsta[i]} fansIG={fansInsta[i]} />
+                        <div>{clubs[i]}</div>
+                        // <Club key={i} name={clubs[i]} crest={eval(clubs[i])} clubIG={clubsInsta[i]} fansIG={fansInsta[i]} />
                     )
                 })}
             </div>
@@ -29,16 +30,16 @@ export default function Clubs() {
     )
 }
 
-function Club(name, crest, clubIG, fansIG) {
-    return (
-        <div className="clubInfosContainer">
-            <div className="clubSquare">
-                <img className="clubCrest" src='../../starville/fortuna.png' />
-                {/* <img className="clubCrest" src={Object.values(name)[1]} /> */}
-                {Object.values(name)[0]}
-            </div>
-            <a href={Object.values(name)[2]} target="_blank"><p>club's instagram</p></a>
-            <a href={Object.values(name)[3]} target="_blank"><p style={{marginBottom: '-40px', color: 'grey'}}>fans' instagram</p></a>
-        </div>
-    )
-}
+// function Club(name, crest, clubIG, fansIG) {
+//     return (
+//         <div className="clubInfosContainer">
+//             <div className="clubSquare">
+//                 <img className="clubCrest" src='../../starville/fortuna.png' />
+//                 {/* <img className="clubCrest" src={Object.values(name)[1]} /> */}
+//                 {Object.values(name)[0]}
+//             </div>
+//             <a href={Object.values(name)[2]} target="_blank"><p>club's instagram</p></a>
+//             <a href={Object.values(name)[3]} target="_blank"><p style={{marginBottom: '-40px', color: 'grey'}}>fans' instagram</p></a>
+//         </div>
+//     )
+// }
