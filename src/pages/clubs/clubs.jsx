@@ -43,7 +43,8 @@ function Club(name, crest, clubIG, fansIG) {
     return (
         <div className="clubInfosContainer">
             <div className="clubSquare">
-                <img className="clubCrest" src={Object.values(name)[1]} />
+                <img className="clubCrest" src='../../starville/fortuna.png' />
+                {/* <img className="clubCrest" src={Object.values(name)[1]} /> */}
                 {Object.values(name)[0]}
             </div>
             <a href={Object.values(name)[2]} target="_blank"><p>club's instagram</p></a>
