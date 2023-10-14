@@ -50,7 +50,7 @@ export default function Table() {
                     return (
                         <div key={i} className="tableContainer">
                             <div className="pos"><p>{sortedTeams[i][0]}</p></div>
-                            <div className="team"><div><img className="teamLogo" src={eval(sortedTeams[i][1])} /><p>{sortedTeams[i][1]}</p></div></div>
+                            {/* <div className="team"><div><img className="teamLogo" src={eval(sortedTeams[i][1])} /><p>{sortedTeams[i][1]}</p></div></div> */}
                             <div className="P"><p>{sortedTeams[i][2]}</p></div>
                             <div className="W"><p>{sortedTeams[i][3]}</p></div>
                             <div className="D"><p>{sortedTeams[i][4]}</p></div>
