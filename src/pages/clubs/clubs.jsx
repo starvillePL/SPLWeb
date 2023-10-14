@@ -29,16 +29,6 @@ export default function Clubs() {
     )
 }
 
-function ClubPopUp(club, crest) {
-    return (
-        <div>
-            <p>CLUB</p>
-            <img src={FTN} />
-            <a href="https://google.com">INSTAGRAM</a>
-        </div>
-    )
-}
-
 function Club(name, crest, clubIG, fansIG) {
     return (
         <div className="clubInfosContainer">
