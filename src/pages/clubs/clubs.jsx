@@ -2,14 +2,14 @@ import Navbar from "../../components/navbar/navbar";
 import './clubs.css'
 import { Link } from 'react-router-dom'
 
-// import FTN from '../../starville/fortuna.png'
-// import ATL from '../../starville/atletico.jpg'
-// import ACS from '../../starville/AC.png'
-// import EFC from '../../starville/east.png'
-// import CMT from '../../starville/comets.png'
-// import CNT from '../../starville/central.png'
-// import OLS from '../../starville/OL.png'
-// import ARS from '../../starville/arlington.png'
+import FTN from '../../starville/fortuna.png'
+import ATL from '../../starville/atletico.jpg'
+import ACS from '../../starville/AC.png'
+import EFC from '../../starville/east.png'
+import CMT from '../../starville/comets.png'
+import CNT from '../../starville/central.png'
+import OLS from '../../starville/OL.png'
+import ARS from '../../starville/arlington.png'
 
 export default function Clubs() {
     let clubs = ['FTN', 'ATL', 'ACS', 'EFC', 'CMT', 'CNT', 'OLS', 'ARS']
@@ -21,8 +21,7 @@ export default function Clubs() {
             <div className="clubsContainer">
                 {clubs.map(function(object, i) {
                     return (
-                        <div>s</div>
-                        //<Club key={i} name={clubs[i]} crest={eval(clubs[i])} clubIG={clubsInsta[i]} fansIG={fansInsta[i]} />
+                        <Club key={i} name={clubs[i]} crest={eval(clubs[i])} clubIG={clubsInsta[i]} fansIG={fansInsta[i]} />
                     )
                 })}
             </div>
@@ -30,16 +29,16 @@ export default function Clubs() {
     )
 }
 
-// function Club(name, crest, clubIG, fansIG) {
-//     return (
-//         <div className="clubInfosContainer">
-//             <div className="clubSquare">
-//                 <img className="clubCrest" src='../../starville/fortuna.png' />
-//                 {/* <img className="clubCrest" src={Object.values(name)[1]} /> */}
-//                 {Object.values(name)[0]}
-//             </div>
-//             <a href={Object.values(name)[2]} target="_blank"><p>club's instagram</p></a>
-//             <a href={Object.values(name)[3]} target="_blank"><p style={{marginBottom: '-40px', color: 'grey'}}>fans' instagram</p></a>
-//         </div>
-//     )
-// }
+function Club(name, crest, clubIG, fansIG) {
+    return (
+        <div className="clubInfosContainer">
+            <div className="clubSquare">
+                <img className="clubCrest" src='../../starville/fortuna.png' />
+                {/* <img className="clubCrest" src={Object.values(name)[1]} /> */}
+                {Object.values(name)[0]}
+            </div>
+            <a href={Object.values(name)[2]} target="_blank"><p>club's instagram</p></a>
+            <a href={Object.values(name)[3]} target="_blank"><p style={{marginBottom: '-40px', color: 'grey'}}>fans' instagram</p></a>
+        </div>
+    )
+}
