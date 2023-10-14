@@ -11,23 +11,23 @@ import Clubs from './pages/clubs/clubs.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/SPLWeb/',
     element: <App />,
   },
   {
-    path: '/table',
+    path: '/SPLWeb/table',
     element: <Table />
   },
   {
-    path: '/fixtures',
+    path: '/SPLWeb/fixtures',
     element: <Fixtures />
   },
   {
-    path: '/results',
+    path: '/SPLWeb/results',
     element: <Results />
   },
   {
-    path: '/clubs',
+    path: '/SPLWeb/clubs',
     element: <Clubs />
   }
 ])
