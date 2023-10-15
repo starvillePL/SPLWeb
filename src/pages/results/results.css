@@ -1,0 +1,12 @@
+.tfscore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5vw !important;
+    background-color: #8704EE;
+    gap: .5vw;
+    color: white;
+    border-radius: 5px;
+    padding: 1.5%;
+    transition: all .7s;
+}

@@ -62,3 +62,35 @@
 .moreDetailsButton:hover {
     background: rgb(225, 225, 225);
 }
+
+.tftitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.lineup {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 20px;
+}
+
+.tffeamnaes {
+    list-style: disc;
+    font-size: 20px;
+    padding: 2%;
+    text-decoration: underline;
+}
+
+.details li {
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.details {
+    display: none;
+}
