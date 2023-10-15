@@ -14,8 +14,8 @@ export default function Results() {
     let game6 = [teams.comets, 11, teams.OL, 5, 'matchday 2', 'Erdi', ['Menace', 'syon', 'Fang', 'Erdi', 'Blürr', '(SUB) davey'], ['Triq', 'set154211', 'KingerKab', 'Mr Swazy', 'Curly'], ['possession', '52.5%', 'kicks', '490', 'passes', '125', 'shots on goal', '18'], ['‎', '47.8%', '‎', '401', '‎', '96', '‎', '27']]
     let game7 = [teams.atletico, 33, teams.arlington, 5, 'matchday 2', 'polud', ['dave', 'aFakeJedi', 'comrade', 'polud', 'dorito'], ['Yura', 'Percy (ARS)'], ['possession', '69.9%', 'kicks', '437', 'passes', '113', 'shots on goal', '53'], ['‎', '30.1%', '‎', '176', '‎', '15', '‎', '37']]
     let game8 = [teams.fortuna, 37, teams.central, 2, 'matchday 2', 'vvv', ['Carlos Magnussen', 'vvv', 'Murphy', 'pepsi', 'TNAssassin_', '(SUB) fanta'], ['Halil Efe', 'Emre30', 'Kewell', 'Efe', 'Kaan..'], ['possession', '64.3%', 'kicks', '525', 'passes', '157', 'shots on goal', '63'], ['‎', '35.7%', '‎', '269', '‎', '39', '‎', '9']]
-    let game9 = [teams.AC, 37, teams.comets, 0, 'matchday 3', 'N/A', ['N/A'], ['N/A'], ['N/A'], ['N/A']]
-    let game10 = [teams.OL, 17, teams.arlington, 5, 'matchday 3', 'Mecha', ['Maria', 'mantens', 'Mecha', 'adamm', 'Beamer', '(SUB) topof'], ['Serra', 'Blürr'], ['possession', '55.7%', 'kicks', '178', 'passes', '64', 'shots on goal', '24'], ['‎', '44.3%', '‎', '159', '‎', '37', '‎', '9']]
+    let game9 = [teams.AC, 37, teams.comets, 0, 'matchday 3', 'Mecha', ['Maria', 'mantens', 'Mecha', 'adamm', 'Beamer', '(SUB) topof'], ['Serra', 'Blürr'], ['possession', '55.7%', 'kicks', '178', 'passes', '64', 'shots on goal', '24'], ['‎', '44.3%', '‎', '159', '‎', '37', '‎', '9']]
+    let game10 = [teams.OL, 18, teams.arlington, 3, 'matchday 3', 'N/A', ['TBC'], ['TBC'], ['TBC'], ['TBC']]
     let games = [game10, game9, game8, game7, game6, game5, game4, game3, game2, game1]
     return (
         <div>
